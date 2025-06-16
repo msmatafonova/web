@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.card {
+    background: white;
+    width: 500px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin: 20px 100px;
+    transition: 0.3s;
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    margin: 8px;
+    font-size: 24px;
+}
+
+.card .info {
+    margin: 8px;
+    color: #000000;
+}
+
+.card .price {
+    margin: 10px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card .old-price {
+    font-size: 14px;
+    color: #e74c3c;
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    transform: opacity 0.3s;
+    background: linear-gradient(#3498db, #2ecc71);
+    border: 1px solid #3498db;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    font-weight: bold
+}
+
+button:hover {
+    color: darkblue;
+    border-color: darkblue;
+    opacity: 0.8;
+}
+
+button:active {
+    background: darkblue;
+    color: white;
+}
+
+button:disabled {
+    background: rgb(219, 219, 219);
+    border-color: rgb(219, 219, 219);
+    color: darkgray;
+}
+
+.card .favorite {
+    text-align: right;
+    a{
+        text-decoration: none;
+    }
+}
